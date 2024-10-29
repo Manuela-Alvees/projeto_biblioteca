@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <form action="cadslivro.php" method="POST">
+    <br>
+    <h1>Cadastro de livros</h1>
+
+    <label for="titulo">Titulo:</label><br>
+
+    <input type="text" id="nome" name="titulo" required><br><br>
+
+
+
+    <label for="editora">Editora:</label><br>
+
+    <input type="text" id="editora" name="editora" required><br><br>
+
+
+    <br>
+
+
+    <label for="estoque">Estoque:</label><br>
+
+    <input type="number" id="estoque" name="estoque" required>
+
+
+
+
+
+    <label for="autor">Autor:</label><br>
+
+    <input type="text" id="autor" name="autor" required><br>
+
+
+
+
+
+    <label for="datafabri">Ano de fabricação:</label><br>
+
+    <input type="date" id="datafabri" name="datafabri" required><br><br>
+
+
+
+
+
+    <label for="categoria">Categoria:</label><br>
+
+    <select id="categoria" name="categoria" required>
+
+      <option value="" disabled selected>Selecione </option>
+
+      <option value="romance">Romance</option>
+
+      <option value="autoajuda">Autoajuda</option>
+
+      <option value="aventeura">Aventura</option>
+
+      <option value="misterio">mistério</option>
+
+      <option value="drama">drama</option>
+
+      <option value="criminal">criminal</option>
+
+      <option value="poesia">poesia</option>
+
+      <option value="anatomia">anatomia</option>
+
+      <option value="historico">histórico</option>
+
+      <option value="cientifico">ciéntifico</option>
+      <br>
+      <br>
+    </select>
+    <br><br>
+    <label for="disponibilidade">Está disponível?</label><br>
+
+    <input type="radio" name="disp" value="sim" required />
+    Sim
+    <br>
+    <input type="radio" name="disp" value="nao" />
+    Não
+    <br>
+    <br>
+
+
+    </select><br><br><br>
+
+    <input type="submit" value="Cadastrar">
+    <br>
+    <br>
+    </ins> <a href="menu.html">Voltar para o menu</a><br>
+
+  </form>
+
+  <div vw class="enabled">
+
+    <div vw-access-button class="active"></div>
+
+    <div vw-plugin-wrapper>
+
+      <div class="vw-plugin-top-wrapper"></div>
+
+    </div>
+
+  </div>
+  <br>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+  <script>
+
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+
+  </script>
+
+
+</body>
+
+</html>

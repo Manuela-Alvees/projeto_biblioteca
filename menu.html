@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bibioteca virtual</title>
+  <link rel="stylesheet" href="menu.css">
+
+</head>
+<body>
+  <form action="menu.php" method="post">
+    <fieldset>
+    <div class="">
+  <h1>Biblioteca Virtual</h1>
+</div>
+  <br>
+  <br>
+  <img src="biblioteca.png" alt="biblioteca" height="300" width="900">
+  <br>
+  <br>
+  <br>
+ 
+    <label for="nome">Titulo ou autor:</label>
+    <input type="text" name="nome" placeholder="Escreva qual você procura" required>
+    <br>
+    <br>
+    <select name="cores">
+
+      <option value="blue">Romance</option>
+
+      <option value="red">Criminal</option>
+
+      <option value="yellow">Drama</option>
+
+      <option value="red">Fantasia</option>
+
+      <option value="red">Ficção</option>
+
+      <option value="red">Distopia</option>
+
+      <option value="red">Thriller e Suspense</option>
+
+      <option value="pink">Auto ajuda</option>
+
+      <option value="pink">Outro</option>
+    </select>
+    <br>
+    <br>
+    <button type="submit">Enviar</button>
+    <br>
+  
+  <br>
+  <div class="minhadiv">
+  <ins></ins> <a href="login1.html">login</a><br>
+  <br> <br> <br>
+  <ins></ins> <a href="sobre.html">Sobre a biblioteca</a><br>
+  <br><br> <br>
+  <ins></ins> <a href="emprestimo.html">Emprestimos</a><br>
+  <br><br> <br>
+  <ins></ins> <a href="devolução1.html">Devoluções</a><br>
+  <br><br> <br>
+  <ins></ins> <a href="cadslivro.html">Cadastro de livros</a><br>
+  <br><br> <br>
+  <ins></ins> <a href="cadsclien.html">Cadastro de clientes</a><br>
+  <br><br> <br>
+  <ins></ins> <a href="consultalivro.php">Consulta dos livros</a><br>
+  <br><br> <br>
+  <ins></ins> <a href="consultaemprestimo.php">Consulta dos emprestimos</a><br>
+  <br><br> <br>
+  <h3>Sua melhor experiência pode estar dentro de nossos livros, além de respostas para as suas perguntas!!</h3>
+  </div>
+</fieldset>
+  <div vw class="enabled">
+
+    <div vw-access-button class="active"></div>
+
+    <div vw-plugin-wrapper>
+
+      <div class="vw-plugin-top-wrapper"></div>
+
+    </div>
+
+  </div>
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+  <script>
+
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+
+  </script>
+</form>
+</body>
+
+</html>

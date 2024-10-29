@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <body>
+        <form action="devolucao.php" method="post">
+        <h2>DEVOLUÇÃO</h2>
+        <BR>
+        <fieldset>
+            <form action="devolucao.php" method="post">
+            <legend>Dados para a devolução:</legend>
+            <br>
+            <label for="nome">Nome do cliente:</label>
+            <input type="text" name="nome" placeholder="Digite o nome do cliente" required>
+            <br>
+            <br>
+            <label for="nome">Data de devolução:</label>
+            <input type="date" name="data" placeholder="Digite seu id aqui" required>
+            <br>
+            <br><label for="nome"> id livro:</label>
+            <input type="text" name="idlivro" placeholder="Digite o id do livro aqui" required>
+            <br>
+            <br><label for="nome"> id usuário:</label>
+            <input type="text" name="idusu" placeholder="Digite seu id aqui" required>
+            <br>
+        </fieldset>
+        <br>
+    
+        <button type="submit">Enviar devolução</button>
+        <br>
+        <br>
+        <label for="nome">Deseja escolher outro titulo?</label>
+        <ins></ins> <a href="menu.html">Voltar para o menu</a><br>
+        <br>
+        
+        <div vw class="enabled">
+    
+            <div vw-access-button class="active"></div>
+    
+            <div vw-plugin-wrapper>
+    
+                <div class="vw-plugin-top-wrapper"></div>
+    
+            </div>
+    
+        </div>
+    
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    
+        <script>
+    
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+    
+        </script>
+        </form>
+    </body>
+    </html>
